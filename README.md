@@ -3,7 +3,7 @@
 Angela: 
 She's a professional, a millennial, knowledgeable about current events, very connected on social media. 
 She wants news that makes sure she isn't missing anything (variety) and news she cares about (relevance).
-Work keeps her busy during the day, social life keeps her busy during the evenings and weekends. She she likes to optimize her free time and multi-task.
+Work keeps her busy during the day, social life keeps her busy during the evenings and weekends. She likes to optimize her free time and multi-task.
 She uses online dating apps, so she is familiar with swiping left/right and is used to getting options tailored to her.
 Angela is the super-user.
 
