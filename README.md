@@ -7,10 +7,7 @@ Work keeps her busy during the day, social life keeps her busy during the evenin
 She uses online dating apps, so she is familiar with swiping left/right and is used to getting options tailored to her.
 Angela is the super-user.
 
-Three situations she uses to catch up on news, with limited time: 
--coffee break at work (10 minutes)
--commute on the metro (30 minutes)
--cardio at the gym (1 hour)
+Three situations she uses to catch up on news, with limited time: coffee break at work (10 minutes); commute on the metro (30 minutes); cardio at the gym (1 hour)
 
 This app: 
 Sign in, then choose preferred topics of news as a starting point. The app learns your habits and preferences over time, while not refusing to give up on crucial news of the day.
