@@ -1,0 +1,44 @@
+.heroImage {
+    height: 250px;
+    width: 100%;
+    background-color: red;
+    background-size: cover;
+
+}
+
+.article {
+    width: 100%;
+    border: 1px solid black;
+    margin: 10px auto 10px auto;
+}
+.articleHeadline {
+    padding: 20px 20px 10px 20px;
+    font-size: 2em;
+    margin: 0;
+}
+
+.byline {
+    padding: 10px 0 0 20px;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+.dateline {
+    font-size: 1em;
+    padding: 10px 0 0 20px;
+    margin: 0;
+}
+
+.articleText {
+    padding: 0 20px 0 20px;
+    font-size: 1.25em;
+}
+
+.footerBox {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: auto;
+}
