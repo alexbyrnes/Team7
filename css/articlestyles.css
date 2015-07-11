@@ -1,15 +1,17 @@
 .heroImage {
     height: 250px;
     width: 100%;
+    margin-left: -18px;
+    padding-right: 53px;
+    margin-top: -10px;
     background-color: red;
-    background-size: cover;
 
 }
 
 .article {
-    width: 100%;
-    border: 1px solid black;
+    width: 97%;
     margin: 10px auto 10px auto;
+    position: static;
 }
 .articleHeadline {
     padding: 20px 20px 10px 20px;
@@ -33,12 +35,38 @@
 .articleText {
     padding: 0 20px 0 20px;
     font-size: 1.25em;
+    width: 82%;
+    margin: 0 auto;
 }
 
 .footerBox {
     height: 100px;
     width: 100%;
-    background-color: black;
+    background-color: grey;
     position: fixed;
-    bottom: auto;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.footerShare {
+    text-align: center;
+    color: white;
+    font-size: 1.10em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.icon-box {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.social-icon {
+    display: inline-block;
+    height: 30px;
+    width: 40px;
+    border: 1px solid black;
+    margin-left:5px;
+    /*background-image: */
 }
