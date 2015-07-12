@@ -1,28 +1,44 @@
 .heroImage {
-    height: 250px;
-    width: 100%;
     margin-left: -18px;
-    padding-right: 53px;
     margin-top: -10px;
-    background-color: red;
-
+    padding-right: 53px;
+    padding-bottom: 25%;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    float: left;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+
 .article {
+    clear: both;
     width: 97%;
     margin: 10px auto 10px auto;
     position: static;
+    padding-top: 10px;
 }
 .articleHeadline {
+    clear: both;
     padding: 20px 20px 10px 20px;
     font-size: 2em;
     margin: 0;
+    font-family: Helvetica;
+    font-weight: bold;
 }
 
 .byline {
     padding: 10px 0 0 20px;
     margin: 0;
     font-family: sans-serif;
+    font-family: Helvetica;
+    font-weight: bold;
 
 }
 
@@ -30,17 +46,20 @@
     font-size: 1em;
     padding: 10px 0 0 20px;
     margin: 0;
+    color: grey;
 }
 
 .articleText {
     padding: 0 20px 0 20px;
-    font-size: 1.25em;
+    font-family: Georgia;
+    font-size: 1.10em;
+    line-height: 1.5em;
     width: 82%;
-    margin: 0 auto;
+    margin: 0 auto 80px auto;
 }
 
 .footerBox {
-    height: 100px;
+    height: 60px;
     width: 100%;
     background-color: grey;
     position: fixed;
@@ -49,24 +68,39 @@
     right: 0px;
 }
 
-.footerShare {
+/*.footerShare {
     text-align: center;
     color: white;
     font-size: 1.10em;
     font-weight: bold;
     font-family: sans-serif;
-}
+}*/
 
 .icon-box {
-    width: 55%;
+    width: 200px;
     margin: 0 auto;
+    margin-top: 15px;
 }
 
 .social-icon {
     display: inline-block;
     height: 30px;
     width: 40px;
-    border: 1px solid black;
     margin-left:5px;
     /*background-image: */
+}
+#facebook {
+    background: url("../images/facebook.png") no-repeat;
+}
+
+#twitter {
+    background: url("../images/twitter.png") no-repeat;
+}
+
+#instapaper {
+    background: url("../images/instapaper.png") no-repeat;
+}
+
+#evernote {
+    background: url("../images/evernote.png") no-repeat;
 }
