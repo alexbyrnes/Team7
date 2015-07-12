@@ -1,6 +1,7 @@
 # Team7
 
 Angela: <br>
+Her Facebook page: https://www.facebook.com/profile.php?id=100010072053810&__nodl<br>
 She's a professional, a millennial, knowledgeable about current events, connected on social media. She likes to optimize her free time and multi-task.<br>
 Like any good, affluent millenial, she is regularly on a computer, either for work or personal reasons; however, she also has a smart phone and/or tablet, which she regularly uses to check emails, text friends and family, browse the web, get directions, online dating apps (so she is familiar with swiping left/right), finding out which tapas restaurant has the best happy hour - and, of course, to read news.<br>
 Angela is the power-user. She just doesn't know it yet.
