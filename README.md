@@ -16,7 +16,7 @@ Three situations she uses to catch up on news, with limited time: coffee break a
 This app: 
 When users first sign up, they choose preferred topics of news as a starting point. The app learns their habits and preferences over time (recommendation engine), while not refusing to give up on crucial news of the day. 
 Upon each use, user can enter the amount of time they have to browse the news.
-Depending on the amount of time they enter, the app pulls articles of various lengths and topics to give the user a well-rounded experience.
+Depending on the amount of time they enter, the app pulls articles of various lengths and topics to give the user a well-rounded experience. <br>
 The app provides news based on what's important and what she likes. She can select which articles to read. 
 She can swipe left or right to show whether she liked or disliked the article after reading it. The app learns her preferences this way.
 The starting point of this app is the average reading speed of 200 words per minute. The app learns her reading speed to tailor which article to provide, based on the length of the article.
