@@ -8,7 +8,7 @@ $("#nextStory").click(getJSON)
 // bring on the json. jquery-->ajax function to pull in article information to article page
 function getJSON(){
    $.ajax({
-       url: "http://10.90.11.128:5000/articles",
+       url: "http://localhost:5000/articles",
         //force to handle it as text
         dataType: "text",
         success: function(data) {
