@@ -1,8 +1,18 @@
-from flask import Flask
+from flask import Flask, send_from_directory, send_static_file
 from flask_restful import Resource, Api
 
-app = Flask(__name__)
+
+
+app = Flask(__name__, static_url_path='')
 api = Api(app)
+
+@app.route('/css/<path:path>')
+def send_css(path):
+      return send_from_directory('css', path)
+    
+@app.route('/')
+def send_html(path):
+      return send_static_file('index.html')
 
 articles = [{"headline": "Europe weighs Greece's ability to enact austerity",
     "author": "Anthony Faiola",
