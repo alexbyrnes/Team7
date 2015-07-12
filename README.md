@@ -21,8 +21,6 @@ This app: <br>
 -The app provides news based on what's important and what she likes. She can select which articles to read. <br>
 -She can swipe left or right to show whether she liked or disliked the article after reading it. The app learns her preferences this way.<br>
 -The starting point of this app is the average reading speed of 200 words per minute. The app learns her reading speed to tailor which article to provide, based on the length of the article.<br>
--As she uses the app, the first thing she notices is the grouping of articles, by the time it would take to read them.
--Each grouping presents a variety of news articles tailored to her reading speed and how much free time she entered.
 
 Wish list:<br>
 -Saving (Pocket, Pinterest, Instapaper, Evernote) and sharing (Facebook, Twitter, LinkedIn, email). <br>
