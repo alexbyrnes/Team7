@@ -1,26 +1,66 @@
-.heroImage {
-    height: 250px;
-    width: 100%;
-    background-color: red;
-    background-size: cover;
+/*click right or left styles*/
 
+#trash {
+    height: 600px;
+    width: 50%;
+    /*background-color: blue;*/
+    display: inline-block;
+    position: fixed;
+    left: 0;
 }
+
+#nextStory {
+    height: 600px;
+    width: 50%;
+    /*background-color: red;*/
+    display: inline-block;
+    position: fixed;
+    right: 0;
+}
+
+/*image styles*/
+.heroImage {
+    margin-left: -18px;
+    margin-top: -10px;
+    padding-right: 53px;
+    padding-bottom: 25%;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    /*float: left;*/
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+/*article styles*/
 
 .article {
-    width: 100%;
-    border: 1px solid black;
+    clear: both;
+    width: 97%;
     margin: 10px auto 10px auto;
+    position: static;
+    padding-top: 10px;
 }
 .articleHeadline {
-    padding: 20px 20px 10px 20px;
+    clear: both;
+    padding: 0 20px 10px 20px;
     font-size: 2em;
     margin: 0;
+    font-family: Helvetica;
+    font-weight: bold;
 }
 
 .byline {
     padding: 10px 0 0 20px;
     margin: 0;
     font-family: sans-serif;
+    font-family: Helvetica;
+    font-weight: bold;
 
 }
 
@@ -28,17 +68,54 @@
     font-size: 1em;
     padding: 10px 0 0 20px;
     margin: 0;
+    color: grey;
 }
 
 .articleText {
     padding: 0 20px 0 20px;
-    font-size: 1.25em;
+    font-family: Georgia;
+    font-size: 1.10em;
+    line-height: 1.5em;
+    width: 82%;
+    margin: 0 auto 80px auto;
 }
 
+/*footer styles*/
 .footerBox {
-    height: 100px;
+    height: 60px;
     width: 100%;
-    background-color: black;
+    background-color: grey;
     position: fixed;
-    bottom: auto;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.icon-box {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.social-icon {
+    display: inline-block;
+    height: 30px;
+    width: 40px;
+    margin-left:5px;
+    /*background-image: */
+}
+#facebook {
+    background: url("../images/facebook.png") no-repeat;
+}
+
+#twitter {
+    background: url("../images/twitter.png") no-repeat;
+}
+
+#instapaper {
+    background: url("../images/instapaper.png") no-repeat;
+}
+
+#evernote {
+    background: url("../images/evernote.png") no-repeat;
 }
