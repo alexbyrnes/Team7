@@ -4,210 +4,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-
-    <style>
-
-/* start necessary for slip styles */
-.slip-reordering {
-}
-
-.slip-swiping-container {
-    overflow-x: hidden;
-}
-
-#slippylist li {
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    cursor: default;
-}
-/* end necessary for slip styles  */
-
-#slippylist li.demo-allow-select {
-}
-#slippylist li.demo-allow-select span {
-}
-
-body {
-}
-
-#slippylist {
-}
-
-#slippylist li {
-}
-
-
-#slippylist input {
-}
-
-#slippylist .instant::after {
-}
-#slippylist .instant {
-}
-
-.demo-no-swipe.demo-no-reorder {
-}
-
-
-
-    </style>
-  <link href="css/bootcards-desktop.min.css" rel="stylesheet" type="text/css">
-
-  <link href="http://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css" rel="stylesheet">
-
-  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-  <script>var isDesktop = true;</script>
-
-    <script src="js/jquery.min.js"></script>
 </head>
-<body>
+<script src="js/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.1.2/mustache.js"></script>
+    <script>
+      var view = {
+        name : "Joe",
+        occupation : "Web Developer"
+      };
+      function loadtemp(){
+$.get('bootcards.mst', function(template) {
+        //var obj = getJSON();// [{headline: 'foo'}, {headline: 'bar'}];
+        var obj = [{"headline": "Europe weighs Greece's ability to enact austerity",
+    "author": "Anthony Faiola",
+    "copy": "European finance ministers were locked in high-stakes talks Saturday over the fate of Greece, with the outcome set to determine whether its creditors will launch a new round of emergency negotiations on a new rescue package to prevent the Mediterranean nation's imminent financial collapse.",
+    "blurb": "asdfasdf",
+     "url": "http://www.washingtonpost.com",
+        "topics": "asdf adsf asdf",
+        "minutes": 3
+        },
+    {"headline": "The Best Way to Vilify Hillary Clinton? G.O.P. Spends Heavily to Test It",
+      "author": "Asheley Parker",
+      "copy": "Inside an office park here, about a dozen women gathered to watch a 30-second television spot that opened with Hillary Rodham Clinton looking well-coiffed and aristocratic, toasting champagne with her tuxedoed husband, the former president, against a golden-hued backdrop."
+      },
+    {"headline": "Watch: the new Batman v. Superman: Dawn of Justice Comic-Con trailer",
+      "author": "Alex Abad-Santos",
+      "copy": "This second trailer feels like a direct response to the leaked initial trailer which came with a plethora of quibbles and skepticism. There's more action, more take-your-breath-away moments, and our first look at Wonder Woman (Gal Gadot) in action"}
+    ]
+        console.log(obj);
+    var rendered = Mustache.render(template, obj);
+    $('#target').html(rendered);
+  });
+      }
+    </script>
+<body onload="loadtemp()" >
+<p id="target"></p>
 
-
-
-  <div class="container bootcards-container" id="main">
-		<div class="row">
-			<div class="col-sm-6 bootcards-list" id="list">
-				<div class="panel panel-default">
-					<div class="panel-body">
-						<div class="search-form">
-							<div class="row">
-							    <div class="col-xs-9">
-							      <div class="form-group">
-								      <input type="text" class="form-control" placeholder="Search...">
-								      <i class="fa fa-search"></i>
-							      </div>
-							    </div>
-							    <div class="col-xs-3">
-									<a class="btn btn-primary btn-block" href="http://" data-toggle="modal" data-target="#editModal">
-										<i class="fa fa-plus"></i>
-										<span>Add</span>
-									</a>
-							    </div>
-							</div>
-						</div>
-					</div>
-					<div class="list-group">
-                                          <ol id="slippylist" style="list-style-type:none"  >
-                                            <li class="demo-no-reorder">
-
-						<a class="list-group-item pjax" href="articlePage.html">
-
-
-							<div class="row">
-								<div class="col-sm-6">
-									<i class="fa fa-3x fa-ambulance pull-left"></i>
-                                                                        <h4 class="list-group-item-heading">Headline 1</h4>
-									<p class="list-group-item-text">This is some blurb text.</p>
-								</div>
-								<div class="col-sm-6">
-									<p class="list-group-item-text">4 minutes</p>
-									<p class="list-group-item-text">Science, Health</p>
-								</div>
-							</div>
-
-						</a>
-                                                </li>
-                                                <li class="demo-no-reorder">
-
-						<a class="list-group-item pjax" href="articlePage.html">
-
-							<div class="row">
-								<div class="col-sm-6">
-									<i class="fa fa-3x fa-globe pull-left"></i>
-                                                                        <h4 class="list-group-item-heading">Headline 2</h4>
-									<p class="list-group-item-text">This is another blurb text.</p>
-								</div>
-								<div class="col-sm-6">
-									<p class="list-group-item-text">8 minutes</p>
-									<p class="list-group-item-text">World, Europe, Energy</p>
-								</div>
-							</div>
-
-						</a>
-                                                </li>
-
-
-
-                                              </ol>
-       					</div>
-				</div>
-			</div>
-
-
-
-  <!-- Load the required JavaScript libraries -->
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery-ui.min.js"></script>
-
-  <script src="js/jquery.pjax.min.js"></script>
-
-  <script src="js/fastclick.min.js"></script>
-
-  <script src="js/raphael-min.js"></script>
-  <script src="js/morris.min.js"></script>
-
-  <!-- Bootcards JS file -->
-  <script src="js/bootcards.js"></script>
-
-  <script src="js/bootcards-demo-app.js"></script>
-
-
-	<!--modals-->
-	<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModal" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content"></div>
-		</div>
-	</div>
-  <div class="modal fade" id="docsModal" tabindex="-1" role="dialog" aria-labelledby="docsModal" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content"></div>
-    </div>
-  </div>
-
-  <script type="text/javascript">
-
-    bootcards.init( {
-        offCanvasHideOnMainClick : true,
-        offCanvasBackdrop : true,
-        enableTabletPortraitMode : true,
-        disableRubberBanding : true,
-        disableBreakoutSelector : 'a.no-break-out'
-      });
-
-  </script>
-<script src="js/slip.js"></script>
-<script>
-    var ol = document.getElementById('slippylist');
-    ol.addEventListener('slip:beforereorder', function(e){
-        if (/demo-no-reorder/.test(e.target.className)) {
-            e.preventDefault();
-        }
-    }, false);
-
-    ol.addEventListener('slip:beforeswipe', function(e){
-        if (e.target.nodeName == 'INPUT' || /demo-no-swipe/.test(e.target.className)) {
-            e.preventDefault();
-        }
-    }, false);
-
-    ol.addEventListener('slip:beforewait', function(e){
-        if (e.target.className.indexOf('instant') > -1) e.preventDefault();
-    }, false);
-
-    ol.addEventListener('slip:afterswipe', function(e){
-        e.target.parentNode.appendChild(e.target);
-    }, false);
-
-    ol.addEventListener('slip:reorder', function(e){
-        e.target.parentNode.insertBefore(e.target, e.detail.insertBefore);
-        return false;
-    }, false);
-
-    new Slip(ol);
-</script>
-
-
-
-</body><div></div></html>
+</body></html>
