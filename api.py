@@ -1,8 +1,10 @@
-from flask import Flask
+from flask import Flask, send_from_directory
 from flask_restful import Resource, Api
 
-app = Flask(__name__)
+
+app = Flask(__name__, static_url_path='')
 api = Api(app)
+
 
 articles = [{"headline": "Europe weighs Greece's ability to enact austerity",
     "author": "Anthony Faiola",
