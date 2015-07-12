@@ -28,20 +28,6 @@ function getJSON(){
 
 }
 
-// function getBullets() {
-
-//     // $.getJSON('http://10.90.12.47:5000/articles', function(data) {
-//     //     // depending on what story you are reading, when you click next, it will return the next item
-//     //     // need to pull in article image
-//     //     $('.articleHeadline').html(data.headline[storyCounter]);
-//     //     $('.byline').html(data.author[storyCounter]);
-//     //     $('.articleText').append('<ul>' + data.body[storyCounter] + '</ul>');
-//     // add one to storyCounter
-//         storyCounter++;
-//        });
-
-//}
-
 function trashArticle() {
     // store that this was an article the person didn't like
     // get the next story
