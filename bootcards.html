@@ -16,21 +16,54 @@
       function loadtemp(){
 $.get('bootcards.mst', function(template) {
         //var obj = getJSON();// [{headline: 'foo'}, {headline: 'bar'}];
-        var obj = [{"headline": "Europe weighs Greece's ability to enact austerity",
-    "author": "Anthony Faiola",
-    "copy": "European finance ministers were locked in high-stakes talks Saturday over the fate of Greece, with the outcome set to determine whether its creditors will launch a new round of emergency negotiations on a new rescue package to prevent the Mediterranean nation's imminent financial collapse.",
-    "blurb": "asdfasdf",
-     "url": "http://www.washingtonpost.com",
-        "topics": "asdf adsf asdf",
+        var obj = [{"headline": "5 Millennial-Friendly Wines to Try",
+    "author": "Dave McIntyre",
+    "copy": "",
+    "blurb": "A selection of affordable and intriguing wines perfect for the summer.",
+     "url": "http://www.washingtonpost.com/lifestyle/food/5-millennial-friendly-wines-to-try/2015/07/12/fca00060-23f7-11e5-b77f-eb13a215f593_story.html",
+        "topics": "Wine, Millennial-Friendly, Food",
         "minutes": 3
         },
-    {"headline": "The Best Way to Vilify Hillary Clinton? G.O.P. Spends Heavily to Test It",
-      "author": "Asheley Parker",
-      "copy": "Inside an office park here, about a dozen women gathered to watch a 30-second television spot that opened with Hillary Rodham Clinton looking well-coiffed and aristocratic, toasting champagne with her tuxedoed husband, the former president, against a golden-hued backdrop."
+    {"headline": "From Greece talks, a less united Europe emerges",
+        "author": "Anthony Faiola",
+        "copy": "A selection of affordable and intriguing wines perfect for the summer.",
+        "blurb": "Greece has never come as close as it is now to crashing out of the euro, providing what some nations see as a defining moment for Europe.",
+        "url": "https://www.washingtonpost.com/world/europe/from-greece-talks-a-less-united-europe-emerges/2015/07/12/9d63fc1e-2703-11e5-b621-b55e495e9b78_story.html?hpid=z1",
+        "topics": "International, Politics, Finance, Greece",
+        "minutes": 3
+        },
+    {"headline": "5 Minutes with Aisha Tyler",
+      "author": "Helena Andrews",
+      "copy": "A selection of affordable and intriguing wines perfect for the summer.",
+      "blurb": "Aisha Tyler took five minutes to sip a cocktail and tell us about the time she made the president laugh.",
+      "url": "http://www.washingtonpost.com/blogs/reliable-source/wp/2014/10/21/5-minutes-with-aisha-tyler/",
+      "topics": "Comedy, Women",
+      "minutes": 5
       },
-    {"headline": "Watch: the new Batman v. Superman: Dawn of Justice Comic-Con trailer",
-      "author": "Alex Abad-Santos",
-      "copy": "This second trailer feels like a direct response to the leaked initial trailer which came with a plethora of quibbles and skepticism. There's more action, more take-your-breath-away moments, and our first look at Wonder Woman (Gal Gadot) in action"}
+    {"headline": "Why Amy Schumer is officially the new John Oliver",
+      "author": "Emily Yahr",
+      "blurb": "Three makes a trend, so it’s official: Amy Schumer is the new John Oliver.",
+      "copy": ""
+      "url": "http://www.washingtonpost.com/blogs/style-blog/wp/2015/05/06/why-amy-schumer-is-officially-the-new-john-oliver/",
+      "topics": "Comedy, Women",
+      "minutes": 4
+  },
+     {"headline": "Scott Walker’s wife, toughened by life, is ready for fires of a campaign",
+        "author": "Mary Jordan",
+        "blurb": "Scott Walker refers to his wife as “my rock.” His wife, in many ways, adds steel to his spine.",
+        "copy": ""
+        "url": "http://www.washingtonpost.com/politics/scott-walkers-wife-toughened-by-life-adds-steel-to-the-gop-candidates-spine/2015/07/05/6133",
+        "topics": "Politics, Women",
+        "minutes": 10
+        },
+        {"headline": "Camille Cosby: A life spent juggling her role as public figure with desire to be private",
+           "author": "Manuel Roig-Franzia, Krissah Thompson and Mary Pat Flaherty",
+           "blurb": "Camille Cosby has straddled — sometimes uncomfortably — the role of public figure and the impulse to hold the world at arm’s length.",
+           "copy": ""
+           "url": "http://www.washingtonpost.com/lifestyle/style/camille-cosby-a-life-spent-juggling-her-role-as-public-figure-with-desire-to-be-private/2014/12/23/575ad31e-8528-11e4-9534-f79a23c40e6c_story.html?tid=pm_lifestyle_pop_b",
+           "topics": "Social, Women, Celebrities",
+           "minutes": 20
+           }
     ]
         console.log(obj);
     var rendered = Mustache.render(template, obj);
