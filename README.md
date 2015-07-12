@@ -3,7 +3,7 @@
 Angela: <br>
 She's a professional, a millennial, knowledgeable about current events, connected on social media. She likes to optimize her free time and multi-task.<br>
 Like any good, affluent millenial, she is regularly on a computer, either for work or personal reasons; however, she also has a smart phone and/or tablet, which she regularly uses to check emails, text friends and family, browse the web, get directions, online dating apps (so she is familiar with swiping left/right), finding out which tapas restaurant has the best happy hour - and, of course, to read news.<br>
-Angela is the super-user. She just doesn't know it yet.
+Angela is the power-user. She just doesn't know it yet.
 
 Angela's interests include: politics, women's issues, satirical comedy shows, wine. Over time, the app will learn her preferences and tailor articles for her. 
 
