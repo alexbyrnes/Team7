@@ -7,10 +7,11 @@ She wants news that makes sure she isn't missing anything (variety) and news she
 Work keeps her busy during the day, social life keeps her busy during the evenings and weekends. She likes to optimize her free time and multi-task.
 Angela is the super-user. She just doesn't know it yet.
 
-Angela's problems are two-fold: time and relevance.
-Time: 
+Angela's interests include: politics, women's issues, satirical comedy shows, wine. Over time, the app will learn her preferences and tailor articles for her. 
 
-Three situations she uses to catch up on news, with limited time: coffee break at work (10 minutes); commute on the metro (30 minutes); cardio at the gym (1 hour)
+Angela's problems are two-fold: time and relevance.
+
+Three situations she uses to catch up on news, with limited time: coffee break at work (10 minutes); commute on the metro (30 minutes); cardio at the gym (1 hour). 
 
 This app: 
 When users first sign up, they choose preferred topics of news as a starting point. The app learns their habits and preferences over time (recommendation engine), while not refusing to give up on crucial news of the day. 
